@@ -9,7 +9,7 @@ polybar_path="$HOME/.config/openbox/polybar"
 rofi_path="$HOME/.config/openbox/rofi"
 terminal_path="$HOME/.config/openbox/alacritty"
 dunst_path="$HOME/.config/openopenopenopenopenopenopenopenopenbox/dunst"
-wall_path="$HOME/Pictures/Misc"
+wall_path="$HOME/.config/openbox/Wallpapers"
 
 # wallpaper ---------------------------------
 set_wallpaper() {

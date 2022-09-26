@@ -9,9 +9,10 @@ polybar_path="$HOME/.config/openbox/polybar"
 rofi_path="$HOME/.config/openbox/rofi"
 terminal_path="$HOME/.config/openbox/alacritty"
 dunst_path="$HOME/.config/openbox/dunst"
+wall_path="$HOME/.config/openbox/Wallpapers"
 
 set_wallpaper() {
-	nitrogen --save --set-zoom-fill /home/luis/Pictures/Misc/"$1"
+	nitrogen --save --set-zoom-fill ${wall_path}/"$1"
 }
 
 # polybar -----------------------------------
@@ -188,7 +189,7 @@ change_dunst() {
 		frame_color = "#007B82"
 	_EOF_
 
-	pkill dunst && dunst -conf ${dunst_path}/dunstrc &
+	pkill dunst && dunst -conf ${dunst_path}/dunstrc&
 }
 
 
